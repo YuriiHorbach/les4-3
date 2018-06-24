@@ -1,0 +1,324 @@
+@font-face {
+	font-family: 'Natasha';
+	src: url('../fonts/Natasha.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Natasha.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Natasha.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/Natasha.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Natasha.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Natasha.svg#Natasha') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'MuseoSansCyrl';
+  src: url('../fonts/MuseoSansCyrl-100.eot');
+  src: url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'), 
+  url('MuseoSansCyrl-100.woff') format('woff'), 
+  url('MuseoSansCyrl-100.ttf') format('truetype'), 
+  url('MuseoSansCyrl-100.svg#MuseoSansCyrl-100') format('svg'), 
+  url('MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MuseoSansCyrl';
+  src: url('../fonts/MuseoSansCyrl-300.eot');
+  src: url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'), 
+  url('MuseoSansCyrl-300.woff') format('woff'), 
+  url('MuseoSansCyrl-300.ttf') format('truetype'), 
+  url('MuseoSansCyrl-300.svg#MuseoSansCyrl-100') format('svg'), 
+  url('MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MuseoSansCyrl';
+  src: url('../fonts/MuseoSansCyrl-900.eot');
+  src: url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'), 
+  url('MuseoSansCyrl-900.woff') format('woff'), 
+  url('MuseoSansCyrl-900.ttf') format('truetype'), 
+  url('MuseoSansCyrl-900.svg#MuseoSansCyrl-100') format('svg'), 
+  url('MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: 'MuseoSansCyrl';
+  src: url('../fonts/MuseoSansCyrl-100Italic.eot');
+  src: url('../fonts/MuseoSansCyrl-100Italic.woff2') format('woff2'), 
+  url('MuseoSansCyrl-100Italic.woff') format('woff'), 
+  url('MuseoSansCyrl-100Italic.ttf') format('truetype'), 
+  url('MuseoSansCyrl-100Italic.svg#MuseoSansCyrl-100Italic') format('svg'), 
+  url('MuseoSansCyrl-100Italic.eot?#iefix') format('embedded-opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'MuseoSansCyrl';
+  src: url('../fonts/MuseoSansCyrl-300Italic.eot');
+  src: url('../fonts/MuseoSansCyrl-300Italic.woff2') format('woff2'), 
+  url('MuseoSansCyrl-300Italic.woff') format('woff'), 
+  url('MuseoSansCyrl-300Italic.ttf') format('truetype'), 
+  url('MuseoSansCyrl-300Italic.svg#MuseoSansCyrl-100Italic') format('svg'), 
+  url('MuseoSansCyrl-300Italic.eot?#iefix') format('embedded-opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'MuseoSansCyrl';
+  src: url('../fonts/MuseoSansCyrl-900Italic.eot');
+  src: url('../fonts/MuseoSansCyrl-900Italic.woff2') format('woff2'), 
+  url('MuseoSansCyrl-900Italic.woff') format('woff'), 
+  url('MuseoSansCyrl-900Italic.ttf') format('truetype'), 
+  url('MuseoSansCyrl-900Italic.svg#MuseoSansCyrl-100Italic') format('svg'), 
+  url('MuseoSansCyrl-900Italic.eot?#iefix') format('embedded-opentype');
+  font-weight: 900;
+  font-style: italic;
+} */
+
+
+
+
+
+
+body {
+  position: relative;
+  font-family: 'MuseoSansCyrl', Natasha, sans-serif;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+
+
+/* body {
+	font-family:'Museo Sans Cyrl', Natasha, Arial, sans-serif;
+	padding: 0px;
+	margin: 0px;
+} */
+
+
+ol, ul {
+	list-style: none;
+}
+
+h1,h2,h3{
+	font-family:Natasha, Arial sans-serif;
+
+}
+
+header{
+	background: #4e8598;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+
+.ttu{
+	text-transform: uppercase;
+	
+}
+
+.tac{
+	text-align: center;
+}
+
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.container{
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.header{
+	width: 100%;
+	background: url(../img/header-bg.png) no-repeat center top/cover;
+	height: 100vh;
+	background-size: 100%;
+}
+.header__logo{
+	padding-top:  55px;
+	width: 142px;
+	float: left;
+	margin-right: 177px;
+}
+
+.header__menu{
+	float: left;
+	padding: 0;
+	width: 66%;
+	
+}
+
+
+.menu-list{
+	
+	padding: 0;
+	margin: 0;
+
+}
+
+.list__item{
+	float: left;
+	font-size: 15px;
+	font-weight: 900;
+	margin-right: 48px;
+	padding-top: 55px;
+	letter-spacing: 2px;
+
+}
+
+.list__item:nth-child(4){
+	margin-right: 0;
+	float: right;
+	text-transform: none;
+	letter-spacing: 2px;
+}
+
+.list__link{
+	text-decoration: none;
+	color: #fff;
+}
+
+.email{
+	font-size: 13px;
+	font-weight: 300;
+	border-bottom: none;
+	text-decoration: none;
+	color: #fff;
+	
+}
+
+.email:visited{
+	color: #fff;
+}
+
+.email:visited{
+	color: #fff;
+}
+
+
+.email:hover, .list__link:hover{
+	border-bottom: 1px solid #6a6d69;
+	color: #fff;
+}
+.header__text-block{
+	padding-top: 295px;
+}
+
+.my-work__code-frontend{
+	margin:33px 0 0 0;
+}
+
+.my-work__circle{
+	border: 1px solid #fff;
+	height: 40px;
+	width: 40px;
+	margin: 0 auto;
+	margin-top: 227px;
+	border-radius: 50%;
+
+}
+
+.fa-long-arrow-alt-down{
+	font-weight: lighter;
+	line-height: 100%;
+}
+
+.my-work__arrow{
+	margin-top: 30%;
+}
+/*header*/
+
+.my-work__main-header{
+	
+	font-size: 49px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 63px;
+}
+
+.my-work__code-frontend{
+	font-size: 29px;
+	text-transform: uppercase;
+	font-weight: 100;
+	letter-spacing: 4px;
+}
+
+.about-me__header2{
+	font-size: 37px;
+	letter-spacing: 4px;
+	color: #22241b;
+}
+
+.about-me__header3{
+	color: #888886;
+	font-size: 22px;
+	letter-spacing: 4px;
+}
+
+.about-me__background{
+	float: left;
+	margin-right: 50px;
+}
+
+.about-me__text{
+	font-size: 15px;
+	width: 430px;
+	
+}
+
+.about-me__achivements{
+	float: left;
+	width: 447px;
+}
+
+.achivements__list{
+	box-sizing: content-box;
+	margin: 0;
+	padding: 0;
+}
+
+.achivements__item{
+	color: #204d15;
+	text-align: center;
+	width: 113px;
+	float: left;
+	margin-left: 0;
+	margin-right: 45px;
+}	
+
+.achivements__item:nth-child(1){
+	margin-left:  18px;
+
+}
+
+.achivements__item:nth-child(3){
+	margin-right: 0;
+}
+
+.achivements__number{
+	background: url(../img/romb.png) no-repeat center;
+	font-size: 20px;
+	width: 113px;
+	height: 103px;
+	text-align: center;
+	line-height: 103px;
+}
+
